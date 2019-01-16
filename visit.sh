@@ -53,4 +53,3 @@ done
 banner
 input
 loop
-sh visit.sh
