@@ -1,1 +1,1 @@
-***Copyright https://javaghost.net ***
+***Copyright https://javaghost.net***
