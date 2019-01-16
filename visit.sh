@@ -17,13 +17,13 @@ e="echo"
 banner()
 {
 
-$e "$indigo  ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓"
-$e "$indigo  ┃$yellow Author   :$cyan Chemod-77 $indigo    ┃"
-$e "$indigo  ┃$yellow Team     :$cyan Aceh Cyber Team $indigo    ┃"
-$e "$indigo  ┃$yellow Website  :$cyan www.cyber-teach.zone.id $indigo     ┃"
-$e "$indigo  ┃$yellow Tools    :$cyan Auto Visitor Blogstot $indigo      ┃"
-$e "$indigo  ┃$yellow WhatsApp :$cyan +628989766219 $indigo        ┃"
-$e "$indigo  ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛"
+$e "$indigo    ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓"
+$e "$indigo    ┃$yellow Author   :$cyan Chemod-77 $indigo         ┃"
+$e "$indigo    ┃$yellow Team     :$cyan Aceh Cyber Team $indigo        ┃"
+$e "$indigo    ┃$yellow Website  :$cyan www.cyber-teach.zone.id $indigo   ┃"
+$e "$indigo    ┃$yellow Tools    :$cyan Auto Visitor Blogstot $indigo     ┃"
+$e "$indigo    ┃$yellow WhatsApp :$cyan +628989766219 $indigo          ┃"
+$e "$indigo    ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛"
 
 }
 
