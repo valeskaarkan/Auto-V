@@ -6,6 +6,7 @@ purple="\033[37;1m"
 cyan="\033[36;1m"
 white="\033[39;1m"
 red="\033[31;1m"
+clear
 
 input()
 {
