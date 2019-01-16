@@ -1,6 +1,3 @@
-
-clear
-#Warna
 green="\033[32;1m"
 yellow="\033[33;1m"
 indigo="\033[34;1m"
@@ -9,45 +6,35 @@ purple="\033[37;1m"
 cyan="\033[36;1m"
 white="\033[39;1m"
 red="\033[31;1m"
+clear
 
-#Banner
-e="echo"
+e="echo -e"
 banner()
 {
 
-$e "       Wellcome To My Tools\n"$W
+$e "          /\             "$w
+$e "        .'  '.	     "$w
+$e "       /======\          "$w
+$e "      ;:.  _   ;         "$w
+$e " _____|   (_)  |______    "$w
+$e "|  "$c"Auto Visitor Blog$w  |"
+$e "|    "$c"javaghost.me$w     |"
+$e "|____  " $c"./lolz$w  ______|"
+$e "    .' \:.    / '.   "$w
+$e "   / .-'':._.'--. \   "$w
+$e "   |/    /||\    \|   "$w
+$e "	(+ '*)	   "$w
+$e "	 \,'/	   "$w
+$e "	  \/	   \n"$W
 
 }
 
 input()
 {
 
-#InputData
-echo $cyan"       Contoh"$white:"$green" http://site.com/2019/01/16/post.html"$red
-read -p "       Input URL : " link
-echo
-echo $cyan"       Masukan Jumlah Pengunjung"$red
-read -p "       Jumlah    : " count
+read -p "URL      : " link
+read -p "Jumlah	  : " brpa
 
-#URL_Autovisitor
-url=$(curl -s -X POST 'https://javaghost.net/ini/visitor.php?' -d 'dav_site='${link}'&razin_jml='${count}'&submit=Visit' | grep "<tr><br><a><font color='#fff'>" | cut -d ":" -f2)
+url=$(curl -s -X POST 'https://javaghost.net/ini/visitor.php?' -d 'dav_site='${link}'&razin_jml='${brpa}'&submit=Visit' | grep "<tr><br><a><font color='#fff'>" | cut -d ":" -f2)
 
 }
-
-loop()
-{
-
-#Loop
-$e
-for i in $url
-do
-
-echo $red$i$green Done
-sleep1
-
-done
-}
-
-banner
-input
-loop
