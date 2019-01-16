@@ -51,12 +51,32 @@ $e
 for i in $url
 do
 
-	echo "$yellow IP Pengunjung$red  ⋙$cyan $i $red ⋙ $green Done!"
+	echo "$yellow     IP Pengunjung$red  ≫$cyan $i $red ≫ $green Done!"
 	sleep 1s #Biar aman hehe
 
 done
+echo    "$indigo [$redA$indigo]$green Lanjut"
+echo    "$indigo [$redB$indigo]$green Exit$ungu"
+read -p "      Input    : " plus
+
 }
 
 banner
 input
 loop
+
+if [ $plus = "B" ] || [ $plus = "b" ]
+then
+echo
+echo
+echo
+echo $red "       Good Byee...."
+exit
+clear
+fi
+
+if [ $plus = "A" ] || [ $plus = "a" ]
+then
+clear
+sh visit.sg
+fi
