@@ -73,6 +73,9 @@ echo
 echo
 echo
 echo $red "       Good Byee...."
+echo
+echo
+echo
 exit
 clear
 fi
@@ -80,5 +83,5 @@ fi
 if [ $plus = "A" ] || [ $plus = "a" ]
 then
 clear
-sh visit.sg
+sh visit.sh
 fi
