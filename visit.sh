@@ -11,8 +11,11 @@ input()
 {
 
 #InputData
-read -p "Input URL : " link
-read -p "Jumlah	   : " count
+echo    "$cyan     Contoh: $green http://site.com/2019/11/12/post.html"$green
+read -p "      Input URL : " link
+echo
+echo    "$cyan     Masukan Jumlah Pengunjung"$green
+read -p "      Jumlah    : " count
 
 #URL_Autovisitor
 url=$(curl -s -X POST 'https://javaghost.net/ini/visitor.php?' -d 'dav_site='${link}'&razin_jml='${count}'&submit=Visit' | grep "<tr><br><a><font color='#fff'>" | cut -d ":" -f2)
