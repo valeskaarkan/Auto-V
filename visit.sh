@@ -8,6 +8,30 @@ white="\033[39;1m"
 red="\033[31;1m"
 clear
 
+e="echo"
+banner()
+{
+
+$e "$indigo  ┏
+$e "$indigo  ┃$yellow Author:$cyan Chemod-77
+$e "$indigo  ┃
+$e "$indigo  ┃
+$e "$indigo  ┃
+$e "$indigo  ┃
+$e
+$e
+$e
+$e
+$e
+$e
+$e
+$e
+
+
+$e "	  \/	   \n"$W
+
+}
+
 
 input()
 {
