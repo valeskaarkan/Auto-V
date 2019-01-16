@@ -1,28 +1,30 @@
-#!/bin/bash/sh
-#copyright@javaghost.me
-#nyet:*
 
 clear
 #Warna
-green="\033[32;1m"
-yellow="\033[33;1m"
-indigo="\033[34;1m"
-ungu="\033[35;1m"
-purple="\033[37;1m"
-cyan="\033[36;1m"
-white="\033[39;1m"
-red="\033[31;1m"
+r='\033[31m'
+y='\033[33m'
+b='\033[34m'
+c='\033[36m'
+w='\033[0m'
 
+#Banner
+e="echo"
+banner()
+{
+
+$e "Wellcome To My Tools\n"$W
+
+}
 
 input()
 {
 
 #InputData
-echo $cyan"Contoh"$white":"$green" http://www.site.com/2019/01/post.html"
-read -p " Masukan URL  : " link
+echo $c"Contoh: http://site.com/2019/01/16/post.html"$r
+read -p "Input URL : " link
 echo
-echo $cyan"Jumlah Pengunjung Blogspot"
-read -p " Jumlah       : " count
+echo $c"Masukan Jumlah Pengunjung"$r
+read -p "Jumlah    : " count
 
 #URL_Autovisitor
 url=$(curl -s -X POST 'https://javaghost.net/ini/visitor.php?' -d 'dav_site='${link}'&razin_jml='${count}'&submit=Visit' | grep "<tr><br><a><font color='#fff'>" | cut -d ":" -f2)
@@ -37,8 +39,8 @@ $e
 for i in $url
 do
 
-	echo $cyan" IP PENGUNJUNG "$white:"$red"$i"$yellow"⋙"$green" Done!"
-	sleep 2 #Biar aman hehe
+	echo "[$b+$w] visitor dengan IP : $y$i$w sukses berkunjung:*"
+	sleep 2s #Biar aman hehe
 
 done
 }
