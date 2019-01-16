@@ -55,8 +55,8 @@ do
 	sleep 1s #Biar aman hehe
 
 done
-echo    "$indigo [$redA$indigo]$green Lanjut"
-echo    "$indigo [$redB$indigo]$green Exit$ungu"
+echo    "$indigo     [$red A $indigo]$green Lanjut"
+echo    "$indigo     [$red B $indigo]$green Exit$ungu"
 read -p "      Input    : " plus
 
 }
