@@ -13,13 +13,6 @@ cyan="\033[36;1m"
 white="\033[39;1m"
 red="\033[31;1m"
 
-#Banner
-e="echo "
-banner()
-{
-
-
-}
 
 input()
 {
