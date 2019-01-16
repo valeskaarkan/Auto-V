@@ -12,7 +12,7 @@ input()
 {
 
 #InputData
-echo    "$cyan     Contoh: $green http://site.com/2019/11/12/post.html"$green
+echo    "$cyan     Contoh: $ungu http://site.com/2019/11/12/post.html"$green
 read -p "      Input URL : " link
 echo
 echo    "$cyan     Masukan Jumlah Pengunjung"$green
