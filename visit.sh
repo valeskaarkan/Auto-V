@@ -8,6 +8,7 @@ white="\033[39;1m"
 red="\033[31;1m"
 clear
 
+
 input()
 {
 
