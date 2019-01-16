@@ -42,7 +42,7 @@ $e
 for i in $url
 do
 
-	echo $cyan" IP Pengunjung"$white :"$red"$i"$ungu" ⋙ "$green"Done!"
+	echo $cyan" IP Pengunjung"$white :"$red"$i" $ungu"⋙" $green" Done!"
 	sleep 1s #Biar aman hehe
 
 done
