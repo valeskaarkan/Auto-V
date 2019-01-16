@@ -42,8 +42,8 @@ $e
 for i in $url
 do
 
-	echo $cyan" IP Pengunjung"$white :"$red"$i" $ungu"⋙" $green" Done!"
-	sleep 1s #Biar aman hehe
+echo $red$i$green Done
+sleep1
 
 done
 }
