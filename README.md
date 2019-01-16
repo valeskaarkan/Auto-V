@@ -1,6 +1,6 @@
 ***Auto Visitor By: https://javaghost.net***
 ==
-*Copyright javaghost.net**
+*Copyright javaghost.net*
 ==
 ***http://cyber-teach.zone.id***
 ==
