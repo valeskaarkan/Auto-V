@@ -1,1 +1,1 @@
-# Auto-V
+***Copyright https://javaghost.net ***
