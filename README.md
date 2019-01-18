@@ -17,7 +17,10 @@ git clone https://github.com/21D4N404/Auto-V.git
 
 cd Auto-V
 
-sh visit.sh
+chmod +x install.sh
+
+./install.sh
+
 ```
 
 
