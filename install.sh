@@ -47,4 +47,5 @@ echo
 
 clear
 
+cd /data/data/com.termux/files/home/
 sh visit.sh
